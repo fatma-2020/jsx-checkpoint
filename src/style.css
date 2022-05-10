@@ -1,8 +1,49 @@
-.title-red {
-  color: red;
-}
 img {
-  width: 320px;
-  height: 240px;
+  width: 500px;
+  height: 300px;
   border-color: aqua;
+}
+figcaption {
+  border: "solid 2px rgb(104, 111, 212)";
+  color: rgb(73, 71, 71);
+}
+h2 {
+  margin: 1em 0 0.5em 0;
+  font-weight: 600;
+  font-family: "Titillium Web", sans-serif;
+  position: relative;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
+  font-size: 22px;
+  line-height: 40px;
+  color: #355681;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(53, 86, 129, 0.3);
+}
+.title-red {
+  margin: 1em 0 0.5em 0;
+  font-weight: normal;
+  position: relative;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.6);
+  font-size: 28px;
+  line-height: 40px;
+  background: #355681;
+  background: rgba(53, 86, 129, 0.8);
+  border: 1px solid #fff;
+  padding: 5px 15px;
+  color: white;
+  border-radius: 0 10px 0 10px;
+  box-shadow: inset 0 0 5px rgba(53, 86, 129, 0.5);
+  font-family: "Muli", sans-serif;
+}
+.image {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:rgb(218, 214, 214);
+}
+video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
